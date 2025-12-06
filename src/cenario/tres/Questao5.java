@@ -1,18 +1,17 @@
-package cenario.tres;
 
-import cenario.um.LinearAlgebra;
-import cenario.um.Matrix;
-import cenario.um.Vector;
 
-public class Questao5 {
+import \\ LinearAlgebra;
+import \\ Matrix;
+import \\ Vector;
+
+public class Questao1 {
     public static void main(String[] args) {
         Metodos metodos = new Metodos();
-        // Matriz da Questão 5
-        Matrix A = new Matrix(4, 4, new double[]{
-                0, 0, 1, 0,
-                1, 0, 0, 0,
-                1, 1, 0, 0,
-                0, 1, 0, 0
+        // Matriz da Questão 1
+        Matrix A = new Matrix(3, 3, new double[]{
+                0, 1, 0,
+                1, 0, 1,
+                1, 0, 1
         });
 
         //1: Vetor inicial (Soma das colunas)
