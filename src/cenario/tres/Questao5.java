@@ -9,10 +9,9 @@ public class Questao5 {
         Metodos metodos = new Metodos();
         // Matriz da Questão 5
         Matrix A = new Matrix(4, 4, new double[]{
-                0, 0, 1, 0,
-                1, 0, 0, 0,
-                1, 1, 0, 0,
-                0, 1, 0, 0
+                0, 1, 0,
+                1, 0, 1,
+                1, 0, 1
         });
 
         //1: Vetor inicial (Soma das colunas)
